@@ -1,0 +1,124 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.topnav{
+    overflow: hidden;
+    z-index: 10;
+    background-color: rgb(96, 61, 15);
+    
+
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    display:flex;
+    font-size: 20px;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul li{
+    display:inline;
+    list-style: none;
+    margin: 10 px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(43, 26, 4);
+    font-weight: bolder;
+}
+
+nav ul li a:hover{
+    color: white;
+}
+
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    font-family:Helvetica, sans-serif;
+    color: rgb(96, 61, 15);
+    text-align: center;
+    
+
+}
+
+body {
+    background-color: burlywood;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/525/648/original/simple-abstract-brown-aesthetic-pattern-background-free-vector.jpg");
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fa_custom {
+    color: #0099CC
+    }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    background-color:blanchedalmond;
+    padding: 15px;
+    border:solid 2px;
+    border-color: rgb(118, 75, 18);
+
+}
+
+.grid-item{
+    display: grid; 
+    background-color: rgb(118, 75, 18); 
+    border: solid 0.5px;
+    text-align: center;
+    font-size: 17px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(118, 75, 18);
+}
+
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+}
+.btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+}
+
+h2 {
+    color: rgb(113, 69, 11);
+    font-family: Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(113, 69, 11);
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    color:rgb(41, 24, 2);
+}
